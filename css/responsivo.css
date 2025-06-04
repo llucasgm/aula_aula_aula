@@ -1,5 +1,17 @@
 @media (max-width: 768px){
-
+.navbar-desktop{
+    display: none;
+}
+.navbar-mobile{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 10px;
+    height: 60px;
+    background-color: #a0c5f0;
+}
 }
 
 @media (max-width: 460px){

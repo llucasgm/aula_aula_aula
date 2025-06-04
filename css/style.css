@@ -17,14 +17,22 @@ header{
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
-    background-color: #0974ee9a;
+    background-color: #a0c5f0a9;
+}
+.navbar-desktop{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10%;
+    margin-top: 50px
+}
+.navbar-mobile{
+    display: none;
 }
 
 ul{
     display: flex;
     list-style: none;
 }
-
 
 a{
     text-decoration: none;
