@@ -36,9 +36,9 @@ ul{
 
 a{
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     font-size: 1.5rem;
-    text-shadow: 2px 4px #808080;
+    text-shadow: 2px 4px #85858541;
 }
 
 a:hover{
@@ -57,5 +57,21 @@ main{
 .redes{
     width: 1.5rem;
     margin-right: 10px;
+}
+
+.botao-flutuante{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    background-color: #37f325;
+    border: solid 1px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px #00000033;
+    color: #000000;
 }
 
