@@ -1,0 +1,40 @@
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #0974ee9a;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    text-shadow: 2px 4px #808080;
+}
+
+nav a:hover{
+    color: #2f11d6;
+}
+
+main{
+    max-width: 1200px;
+    margin: 140px 20%;
+}
+
+.logo{
+    width: 80px;
+}
+
+.redes{
+    width: 1.5rem;
+    margin-right: 10px;
+}
