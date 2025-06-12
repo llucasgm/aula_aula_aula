@@ -1,2 +1,33 @@
+.cards{
+    padding: 2rem 0;
+}
 
- 
+.cards__grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.card-item{
+    flex-grow: 1; /* Ocupa todo o espaço */
+    flex-shrink: 1; /* Ele redimensiona para caber */
+    flex-basis: 280px; /* Tamanho/Largura padrão*/
+    background-color: var(--cor-fundo-primaria);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 8px #000000;
+}
+
+.section-title {
+    padding: 2rem 0;
+    text-align: center;
+   
+}
+.section-text {
+    justify-content: center;
+    padding: 2rem 0;
+    margin: 2rem 5rem;
+}

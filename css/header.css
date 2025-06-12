@@ -5,16 +5,17 @@ header{
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
-    background-color: #0974ee9a;
+    background-color: var(--cor-fundo-primaria);
+    z-index: 10;
 }
 
-ul{
+header ul{
     display: flex;
     list-style: none;
 }
 
 
-nav a{
+header nav a{
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
@@ -23,11 +24,6 @@ nav a{
 
 nav a:hover{
     color: #2f11d6;
-}
-
-main{
-    max-width: 1200px;
-    margin: 140px 20%;
 }
 
 .logo{
